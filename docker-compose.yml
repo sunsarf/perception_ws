@@ -1,0 +1,10 @@
+
+version: '3.9'
+services:
+  perception:
+    image: ros:iron-perception-jammy
+    container_name: iron_perception_jammy
+    volumes:
+      - C:/Users/sanas/Documents/Software/perception_ws/src/:/perception_ws/src/
+    stdin_open: true
+    tty: true
